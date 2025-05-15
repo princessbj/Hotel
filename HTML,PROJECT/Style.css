@@ -1,0 +1,81 @@
+*{
+  text-decoration: none;
+}
+.navbar{
+  background: navy; 
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 40px;
+  font-weight:650px;
+  color: white;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  font-size:18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+body{
+  background: url("Hotel.jpeg")
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div img{
+  width:500px;
+  height: 400px;
+  border: 2px solid darkblue;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px navy;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+div img:hover{
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
+footer{
+  text-decoration: none;
+}
+footer div{
+  background-color: deepskyblue;
+  font-family: calibri;
+  padding-right: 30px;
+  padding-left: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 9px 9px 9px;
+  align-items: center;
+}
+li {
+  justify-content: space-between;
+}
